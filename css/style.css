@@ -1,0 +1,21 @@
+.call-to-action p{
+    font-size: 1.2rem;
+}
+.card{
+    width: 18rem;
+}
+.alerts{
+    margin-top: 144px;
+    margin-bottom: 117px;
+}
+.cards{
+    margin-top: 75px;
+}
+.container-call-to-action{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.footer{
+    position: relative;
+    bottom: -16px;
+}
