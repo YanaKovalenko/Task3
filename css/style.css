@@ -1,21 +1,49 @@
 .call-to-action p{
     font-size: 1.2rem;
 }
-.card{
-    width: 18rem;
-}
 .alerts{
-    margin-top: 144px;
-    margin-bottom: 117px;
+    margin-top: 9rem;
+    margin-bottom: 7.3rem;
 }
 .cards{
-    margin-top: 75px;
+    margin-top: 4.7rem;
 }
 .container-call-to-action{
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 4.1rem;
+    padding-bottom: 4.1rem;
 }
 .footer{
     position: relative;
-    bottom: -16px;
+    bottom: -4.1rem;
+}
+#btn-burger-menu{
+    display: none;
+    margin-top: -9999px;
+}
+#btn-burger-menu:checked ~ .navbar-collapse{
+    display: block;
+}
+.menu__btn{
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 770px){
+    #btn-burger-menu{
+        display: block;
+    }
+    .menu__btn{
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-deck .card{
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .card-deck .card{
+        margin-bottom: 2rem;
+    }
+    .alerts{
+        margin: 3rem 0rem;
+    }
 }
